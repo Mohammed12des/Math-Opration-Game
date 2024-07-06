@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+ 
+}
+header{
+    height: 100px;
+   width: auto;
+   display: flex;
+   justify-content: space-around;
+}
+#dark{
+    height: auto;
+}
+#sun{
+    height: auto;
+}
+#quiz{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 800px;
+}
+#quastion{
+    width: auto;
+
+}
+#solve{
+    padding: 15px;
+    font-size: medium;
+}
+#text{
+    padding: 15px;
+    margin: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding: 10px
+}
+.level{
+    margin-top: 15px;
+    padding: 1rem;
+    margin-right: 17px;
+    font-size: medium;
+}
