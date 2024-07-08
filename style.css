@@ -25,7 +25,13 @@ header{
 }
 #quastion{
     width: auto;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+#timer{
+    margin: 16px;
 }
 #enter{
     padding: 15px;
