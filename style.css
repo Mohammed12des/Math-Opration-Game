@@ -3,16 +3,19 @@
   }
 
 body{
- 
+ background-image: url(https://st.depositphotos.com/1278966/1380/i/950/depositphotos_13805186-stock-photo-mathematic-school-background-illustration.jpg);
 }
 header{
     height: 100px;
    width: auto;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
+   background-color: #848482;
+   border-radius: 50px;
 }
 #dark{
     height: auto;
+    border-radius: 20px;
 }
 #sun{
     height: auto;
@@ -21,7 +24,8 @@ header{
  display: flex;
  flex-direction: column;
  align-items: center;
- height: 800px;
+ 
+ background-image: url(https://slidechef.net/wp-content/uploads/2021/10/Free-Google-Slides-Maths-Background.jpg);
 }
 #quastion{
     width: auto;
