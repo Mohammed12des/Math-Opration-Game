@@ -4,10 +4,13 @@
 
 body{
     
-    background-image: url(https://st.depositphotos.com/1278966/1380/i/950/depositphotos_13805186-stock-photo-mathematic-school-background-illustration.jpg);
-    background-image: url(https://slidechef.net/wp-content/uploads/2021/10/Free-Google-Slides-Maths-Background.jpg); 
+    background-image: url(https://slidechef.net/wp-content/uploads/2023/10/Math-Background.jpg);
+    
     background-size: cover;
 
+}
+#gameTital{
+    font-family: 'Times New Roman', Times, serif;
 }
 header{
     height: 100px;
@@ -62,6 +65,7 @@ size: 10%;
 #timer{
     margin: 16px;
     border-radius: 30px;
+    padding: 30px;
     
 }
 #enter{
@@ -98,9 +102,19 @@ nav{
     background-color: lightblue
 }
 .dark{
-background-color: black
-
+background-image: url(https://png.pngtree.com/background/20210706/original/pngtree-creative-blackboard-mathematical-background-picture-image_102289.jpg);
+color: #ffffff;
+background-size: cover;
 }
-.sun{
-bac
+#tip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tips{
+    font-size: large;
+    align-items: center;
+    color: black;
+    background-color: rgb(255, 244, 244);
+
 }
