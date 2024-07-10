@@ -3,29 +3,54 @@
   }
 
 body{
- background-image: url(https://st.depositphotos.com/1278966/1380/i/950/depositphotos_13805186-stock-photo-mathematic-school-background-illustration.jpg);
+    
+    background-image: url(https://st.depositphotos.com/1278966/1380/i/950/depositphotos_13805186-stock-photo-mathematic-school-background-illustration.jpg);
+    background-image: url(https://slidechef.net/wp-content/uploads/2021/10/Free-Google-Slides-Maths-Background.jpg); 
+    background-size: cover;
+
 }
 header{
     height: 100px;
    width: auto;
    display: flex;
    justify-content: space-between;
-   background-color: #848482;
+   
    border-radius: 50px;
+   opacity: 90%;
+}
+.green{
+    background-color: yellowgreen;
+}
+.yellow{
+background-color: yellow;
+}
+.red{
+    background-color: red;
+    color:rgb(0, 0, 0)
 }
 #dark{
     height: auto;
     border-radius: 20px;
+    cursor: pointer ;
+}
+#dark:hover{
+ position: relative;
 }
 #sun{
     height: auto;
+    cursor: pointer 
+}
+#sun:hover{
+size: 10%;
 }
 #quiz{
  display: flex;
  flex-direction: column;
  align-items: center;
  
- background-image: url(https://slidechef.net/wp-content/uploads/2021/10/Free-Google-Slides-Maths-Background.jpg);
+
+ background-size: cover;
+ border-radius: 10px;
 }
 #quastion{
     width: auto;
@@ -36,10 +61,19 @@ header{
 }
 #timer{
     margin: 16px;
+    border-radius: 30px;
+    
 }
 #enter{
     padding: 15px;
-    font-size: medium;
+    font-size: large;
+    border-radius: 10px;
+    color: rgb(63, 9, 201);
+    cursor: pointer;
+}
+#enter:hover{
+    background-color: lightblue;
+   
 }
 #text{
     padding: 15px;
@@ -56,4 +90,17 @@ nav{
     padding: 1rem;
     margin-right: 17px;
     font-size: medium;
+    border-radius: 10px;
+    border-color: blue;
+    cursor: pointer;
+}
+.level:hover{
+    background-color: lightblue
+}
+.dark{
+background-color: black
+
+}
+.sun{
+bac
 }
