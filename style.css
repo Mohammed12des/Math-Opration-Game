@@ -4,7 +4,7 @@
 
 body{
     
-    background-image: url(https://slidechef.net/wp-content/uploads/2023/10/Math-Background.jpg);
+    background-image: url(https://slidechef.net/wp-content/uploads/2021/10/Free-Google-Slides-Maths-Background.jpg);
     
     background-size: cover;
 
@@ -103,7 +103,7 @@ nav{
 }
 .dark{
 background-image: url(https://png.pngtree.com/background/20210706/original/pngtree-creative-blackboard-mathematical-background-picture-image_102289.jpg);
-color: #ffffff;
+color: rgb(255, 255, 255);
 background-size: cover;
 }
 #tip{
@@ -114,7 +114,8 @@ background-size: cover;
 #tips{
     font-size: large;
     align-items: center;
-    color: black;
-    background-color: rgb(255, 244, 244);
+    
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 
 }
