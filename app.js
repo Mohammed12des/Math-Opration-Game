@@ -289,31 +289,31 @@ sun.addEventListener('click',()=>{
            }
         else{
         if(parseInt(sloution.value)===slove && c<=numberQueestion && easy===true){
-            q++
-            correct.play()
-            geratAddtion()
+            q++;  
+            correct.play();
+            geratAddtion();
             sloution.value=''
             c++;
         }
          else if(parseInt(sloution.value)===slove && c<=numberQueestion && mid===true){
-          q++
-          correct.play()
-          geratSubtraction()
-          sloution.value=''
+          q++;
+          correct.play();
+          geratSubtraction();
+          sloution.value='';
           c++;
           }
        else if(parseInt(sloution.value)===slove && c<=numberQueestion && hard===true){
-         q++
-         correct.play()
-         gnratMitplay()
-         sloution.value=''
+         q++;
+         correct.play();
+         gnratMitplay();
+         sloution.value='';
          c++;
         } 
        else if(parseInt(sloution.value)===slove && c<=numberQueestion && vHard===true){
-         q++
-         correct.play()
-         genratDived()
-         sloution.value=''
+         q++;
+         correct.play();
+         genratDived();
+         sloution.value='';
          c++;
          }
           else{tital.innerText='Try aging'
