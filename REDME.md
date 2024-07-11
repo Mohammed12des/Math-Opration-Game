@@ -4,7 +4,7 @@
 
 ### By: Mohammed Isa Abdulla
 
-#### [Website](https://michaellackey.com/) | [GitHub](https://github.com/Mohammed12des) | 
+#### [Website](https://mohammed12des.github.io/Project-1/) | [GitHub](https://github.com/Mohammed12des) | 
 ***
 
 ### ***Description***
@@ -18,10 +18,8 @@
 ***
 
 ### ***Getting Started***
-
-##### Sign up and sign in as a new user and then walk through the Ranger creation page to begin your warband.
-##### A Trello board was used to keep track of development progress and can be viewed [here](URL).
-##### The project itself was deployed and can be viewed [here](URL).
+##### The project itself was deployed and can be viewed [here](https://mohammed12des.github.io/Project-1/).
+#### This is my plan [here](https://github.com/Mohammed12des/Project-1/blob/main/plan.md).
 ***
 
 ### ***Screenshots***
