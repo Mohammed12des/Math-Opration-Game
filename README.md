@@ -4,7 +4,7 @@
 
 ### By: Mohammed Isa Abdulla
 
-#### [Website](https://mohammed12des.github.io/Project-1/) | [GitHub](https://github.com/Mohammed12des) | 
+#### [Website](https://mohammed12des.github.io/Math-Opration-Game/) | [GitHub](https://github.com/Mohammed12des) | 
 ***
 
 ### ***Description***
