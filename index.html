@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Math Operation Game</title>
     <link rel="stylesheet" href="style.css" />
     <script defer src="app.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -13,20 +13,27 @@
       <img
         id="dark"
         src="https://cdn-icons-png.freepik.com/512/6714/6714978.png"
-        alt=" dark-mode"
+        alt="Dark mode toggle"
+        aria-label="Enable dark mode"
       />
-      <h1 id="gameTital">Math Opration Game</h1>
+      <h1 id="gameTital" class="math-operation">Math Operation Game</h1>
       <img
         id="sun"
         src="https://cdn.icon-icons.com/icons2/1898/PNG/512/sun_121156.png"
-        alt="sun-mode"
+        alt="Light mode toggle"
+        aria-label="Enable light mode"
       />
     </header>
     <main id="quiz">
-      <h1 id="tital">Choose your level skill of mathmatic</h1>
+      <h1 id="tital">Choose your level skill of mathematics</h1>
       <h2 id="pro"></h2>
       <div id="quastion">
-        <input type="number" name="sloution" id="text" />
+        <input
+          type="number"
+          name="solution"
+          id="text"
+          placeholder="Enter your answer"
+        />
         <button id="enter">Enter</button>
         <h2 id="timer"></h2>
       </div>
@@ -35,24 +42,18 @@
         <button class="level" id="med">Medium</button>
         <button class="level" id="hard">Hard</button>
         <button class="level" id="Veryhard">Very Hard</button>
-        <button class="level" id="rest">Rest</button>
+        <button class="level" id="rest">Reset</button>
       </nav>
       <footer id="score"><h1 id="result"></h1></footer>
       <div id="tip">
         <h1>Tip of the Game</h1>
         <p id="tips">
-          • First: Choose your level skill each level have diffeclty and limit
-          time to solve the problem <br />
-          <br />
-          • Easy level consist of 3 question and you have 30 socend to solve the
-          questions. <br />
-          <br />
-          • Medium level consist of 4 question and you have 40 socend to solve
-          the questions. <br /><br />
-          • Hard level consist of 5 question and you have 45 socend to solve the
-          questions. <br /><br />
-          • Very Hard level consist of 6 question and you have 60 socend to
-          solve the questions. <br /><br />
+          • First: Choose your level skill, each level has difficulty and
+          limited time to solve the problem. <br /><br />
+          • Easy: 3 questions in 30 seconds. <br /><br />
+          • Medium: 4 questions in 40 seconds. <br /><br />
+          • Hard: 5 questions in 45 seconds. <br /><br />
+          • Very Hard: 6 questions in 60 seconds. <br /><br />
         </p>
       </div>
     </main>
